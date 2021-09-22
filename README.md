@@ -1,5 +1,4 @@
 # BD-2018
-bd project
 
 The objective of this project is to predict the outcome of an IPL match given the teams, the batting order, the bowling order, and which team goes first. We adopted two approaches to tackle this problem, both methods employing Pyspark and Spark Mllib. 
 In the first method, we clustered the batsmen and bowlers separately and found the probability of the batsman scoring n (0,1,2,3,4,6) runs against the bowlers using these clusters. 
